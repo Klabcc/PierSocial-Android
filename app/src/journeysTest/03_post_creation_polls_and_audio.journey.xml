@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Post Creation, Polls, Hashtags, and Audio Clips">
+    <description>Tests switching to Feed (1:1) mode, inspecting Adjust/Filter controls, 5s Audio clip controls, attaching a Poll with options, and hashtag caption support.</description>
+    <actions xml:space="preserve">
+        <action>Tap the 'Create' bottom navigation tab</action>
+        <action>Tap the 'Feed (1:1)' chip</action>
+        <action>Verify that 'Adjust' and 'Audio 5s' tools are displayed</action>
+        <action>Tap the 'Audio 5s' tool and verify the '5-Second Post Audio Clip', 'Record 5s', and 'Import' controls are visible</action>
+        <action>Tap the 'Adjust' tool and verify photo filter presets and Rotate/Flip/Reset buttons are visible</action>
+        <action>Scroll down and tap 'Add Poll to Post (optional)'</action>
+        <action>Enter 'Best hangout spot?' into 'Ask a question...', 'North Pier' into 'Option 1', and 'Boardwalk' into 'Option 2'</action>
+        <action>Enter 'Sunset check #pier #sunset' into the post caption field</action>
+        <action>Verify that 'Share Post' button is visible (disabled without a photo, enabled once a photo is selected)</action>
+        <action>Tap the 'Feed' bottom navigation tab to return to Feed</action>
+    </actions>
+</journey>

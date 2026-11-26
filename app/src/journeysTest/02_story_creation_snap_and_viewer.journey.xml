@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Story Creation Toolkit, Snapping Guides, and Viewer">
+    <description>Tests creating a 9:16 story with gradient backdrop, brush drawing, text sticker, emoji sticker, snapping guide toggle, publishing, and viewing it in the Story Viewer.</description>
+    <actions xml:space="preserve">
+        <action>Tap the 'Create' bottom navigation tab</action>
+        <action>Tap the 'Story (9:16)' chip</action>
+        <action>Verify that the 'Snap' snapping guide toggle pill and Story tools ('Backdrop', 'Draw', 'Text', 'Stickers', 'Audio 5s') are visible</action>
+        <action>Tap the 'Snap' pill to toggle snapping off and verify it changes to 'Snap Off', then tap again to restore 'Snap'</action>
+        <action>Tap the 'Backdrop' tool and select the 'Ocean' backdrop</action>
+        <action>Tap the 'Draw' tool, draw a short stroke on the story canvas, and tap undo</action>
+        <action>Tap the 'Text' tool, enter 'Pier Vibes' into the overlay text field, and tap 'Add'</action>
+        <action>Tap the 'Stickers' tool and tap a quick emoji sticker to place it on the story canvas</action>
+        <action>Scroll down and tap the 'Share Story' button</action>
+        <action>Verify return to the Feed screen and that 'Your Story' ring appears in the stories bar</action>
+        <action>Tap 'Your Story' in the stories ring bar</action>
+        <action>Verify that the Story Viewer opens full screen and shows the close button</action>
+        <action>Tap the close button to return to Feed</action>
+    </actions>
+</journey>

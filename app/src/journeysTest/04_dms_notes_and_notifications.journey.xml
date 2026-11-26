@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="DMs, 24h Notes, and Messaging Features">
+    <description>Tests the DMs tab, sharing and clearing a 24h Note with mood emoji, and checking DM conversation list or chat interaction when peers are present.</description>
+    <actions xml:space="preserve">
+        <action>Tap the 'DMs' bottom navigation tab</action>
+        <action>Verify that the 'Notes (24h)' bar and 'Your Note' bubble are visible</action>
+        <action>Tap 'Your Note' to open the 'Share a 24h Note' dialog</action>
+        <action>Enter 'Testing by the pier' into the note text field and tap 'Share'</action>
+        <action>Verify that 'Testing by the pier' is visible on 'Your Note' bubble</action>
+        <action>Tap 'Your Note', tap 'Clear Note', and verify the note resets to 'Note...'</action>
+        <action>Check if any peer conversations are listed; if a peer is available, open the chat, verify the 'Disappearing messages timer' icon, and send a message</action>
+    </actions>
+</journey>

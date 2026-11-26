@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Explore, Profile Editing, Settings, DM Notifications, Storage, and Developer Mode">
+    <description>Tests Explore search, Profile and Edit Profile, Settings toggles (Nearby Sharing, DM Push Notifications), Storage and Retention presets, Developer Mode and BLE Mesh Inspector.</description>
+    <actions xml:space="preserve">
+        <action>Tap the 'Explore' icon in the top bar</action>
+        <action>Verify that the 'Explore' title, search bar, and 'Nearby People' section are visible</action>
+        <action>Tap the 'Profile' icon in the top bar</action>
+        <action>Verify that the 'Profile' title, user stats ('Posts', 'Following', 'Muted'), and 'Edit Profile' button are visible</action>
+        <action>Tap 'Edit Profile', verify the Edit Profile dialog opens with 'Display Name' and 'Bio', and tap 'Cancel'</action>
+        <action>Tap the 'Settings' icon in the top bar</action>
+        <action>Verify that 'Nearby Sharing', 'DM Push Notifications', 'Storage &amp; Retention', and 'Developer Mode' are visible</action>
+        <action>Tap 'Storage &amp; Retention' and verify Storage Usage, limit presets, and 'Automatic Storage Cleanup' toggle are visible</action>
+        <action>Tap the 'Back' button to return to Settings</action>
+        <action>Toggle 'Developer Mode' on</action>
+        <action>Verify that 'Developer Diagnostics', 'BLE Mesh Telemetry', 'Open BLE Mesh Inspector', and 'Node Identity' appear</action>
+        <action>Tap 'Open BLE Mesh Inspector' and verify the mesh inspector sheet opens, then dismiss it</action>
+        <action>Toggle 'Developer Mode' back off and return to Feed</action>
+    </actions>
+</journey>

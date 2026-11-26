@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sunset sky sweep -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M24,42 C38,34 62,31 82,36 L82,47 C62,43 40,46 24,52 Z" />
+    <!-- Pier deck rail -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M22,68 L58,66 L58,72 L22,74 Z" />
+    <!-- Pier left support post -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M33,71 L40,71 L38,88 L31,88 Z" />
+    <!-- Pier tall right post -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,54 L61,54 L60,88 L53,88 Z" />
+</vector>

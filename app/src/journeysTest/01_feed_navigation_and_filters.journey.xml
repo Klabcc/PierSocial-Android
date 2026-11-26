@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Feed, Navigation, and Post Filters">
+    <description>Verifies top bar icons, bottom navigation tabs, story ring bar, and feed filter chips (All, Following, Saved).</description>
+    <actions xml:space="preserve">
+        <action>Verify that the 'PierSocial' title and top navigation icons ('Explore', 'Profile', 'Settings') are visible</action>
+        <action>Verify that bottom navigation tabs ('Feed', 'Create', 'DMs') are visible</action>
+        <action>Verify that the feed filter chips ('All', 'Following', 'Saved') are displayed</action>
+        <action>Tap the 'Following' filter chip</action>
+        <action>Verify that the 'Following' filter view is active</action>
+        <action>Tap the 'Saved' filter chip</action>
+        <action>Verify that the 'Saved' filter view is active</action>
+        <action>Tap the 'All' filter chip</action>
+        <action>Verify that the 'All' filter view is active</action>
+    </actions>
+</journey>
